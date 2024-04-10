@@ -35,7 +35,7 @@ function toHaveLogged(_logger: Logger, logEntry: Partial<LogEntry>): jest.Custom
           return `expected Logger to have logged the given entry, but no entries were logged at all.`
         } else {
           return `expected Logger to have logged the given entry, but it did not\n\Entries were:\n${loggedEntries
-            .map((loggedEntry: LogEntry) => this.utils.diff(loggedEntry, logEntry))
+            .map((loggedEntry: LogEntry) => this.utils.diff(logEntry, loggedEntry))
             .join('\n')}`
         }
       },

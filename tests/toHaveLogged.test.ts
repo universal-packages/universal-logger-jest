@@ -54,10 +54,10 @@ Entries were:
 
   Object {
     "level": "INFO",
--   "message": "Test message",
--   "title": "Test",
-+   "message": "Other message",
-+   "title": "Other",
+-   "message": "Other message",
+-   "title": "Other",
++   "message": "Test message",
++   "title": "Test",
   }`)
   })
 
