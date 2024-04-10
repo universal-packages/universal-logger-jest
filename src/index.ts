@@ -3,7 +3,7 @@ import { LogEntry, Logger, TestTransport } from '@universal-packages/logger'
 
 import './globals'
 
-beforeEach(() => {
+afterEach(() => {
   TestTransport.reset()
 })
 
